@@ -1,0 +1,568 @@
+*{
+  margin: 0;
+  padding: 0;
+  scrollbar-gutter: stable;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Homepade (index.html)*/
+
+.main{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0, 0, 0, 0.7)50%), url(images/background.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 110vh;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  position: sticky;
+}
+
+.nev{
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  background: rgba(0,0,0,0.9);
+  position: fixed;
+}
+
+.icon{
+  width: 70px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  width: 30px;
+  float: left;
+  padding-top: 10px;
+  margin-left: 40px;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+  position: sticky;
+}
+
+ul{
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 20px;
+  font-size: larger;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 200ms ease-in-out;
+}
+
+ul .sup a:hover{
+  color:deepskyblue;
+}
+
+ul .gam a:hover{
+  color:darkolivegreen;
+}
+
+ul .gro a:hover{
+  color: orange;
+}
+
+
+.content{
+  width: 1000px;
+  height: auto;
+  color: white;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.content .pr{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  letter-spacing: 0.7px;
+  line-height: 30px;
+  font-weight: 550;
+  font-size: larger;
+}
+
+.studio{
+  width: 700px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.genre{
+  text-decoration: none;
+  color: inherit;
+}
+
+.span1{
+  color:cadetblue;
+  transition: 0.2s ease-in-out;
+}
+
+.span2{
+  color:coral;
+  transition: 0.2s ease-in-out;
+}
+
+.span3{
+  color:darkolivegreen;
+  transition: 0.2s ease-in-out;
+}
+
+.span4{
+  color:firebrick;
+  transition: 0.2s ease-in-out;
+}
+
+.span5{
+  color:rgb(209, 175, 64);
+  transition: 0.2s ease-in-out;
+}
+
+.span1:hover{
+  color:rgb(202, 235, 236);
+  
+}
+
+.span2:hover{
+  color:rgb(253, 213, 198);
+}
+
+.span3:hover{
+  color:rgb(224, 231, 212);
+}
+
+.span4:hover{
+  color:rgb(253, 165, 165);
+}
+
+.span5:hover{
+  color:rgb(255, 250, 206);
+}
+
+/*BelowNav Homepage (index.html)*/
+
+.div1{
+  margin-top: 20px;
+  width: auto;
+  height: 300px;
+  background-color:whitesmoke;
+}
+
+.sec{
+  display: flex;
+  width: auto;
+  align-self: center;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.sec hr{
+  display: inline;
+  background:gainsboro;
+  width: 400px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 10px;
+  height: 3px;
+}
+
+.pr1{
+  font-size: large;
+  font-weight: bolder;
+  color:chocolate;
+  letter-spacing: 10px;
+}
+
+.sec2{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pr2{
+  font-size: 30px;
+  color: rgb(22, 20, 20);
+  margin-bottom: 35px;
+}
+
+.btn1{
+  text-decoration: none;
+  background: orange;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: white;
+  transition: 0.2s ease-in-out; 
+}
+
+.btn1:hover{
+  background: rgb(91, 214, 255);
+}
+
+.div2{
+  width: auto;
+  height: 300px;
+  background-color:white;
+}
+
+.sec3{
+  display: flex;
+  width: auto;
+  align-self: center;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.sec3 hr{
+  display: inline;
+  background:gainsboro;
+  width: 400px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 10px;
+  height: 3px;
+}
+
+.pr3{
+  font-size: large;
+  font-weight: bolder;
+  color:chocolate;
+  letter-spacing: 10px;
+}
+
+.sec4{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pr4{
+  font-size: 30px;
+  color: rgb(22, 20, 20);
+  margin-bottom: 35px;
+}
+
+.btn2{
+  text-decoration: none;
+  background: orange;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: white;
+  transition: 0.2s ease-in-out; 
+}
+
+.btn2:hover{
+  background: rgb(111, 161, 82);
+}
+
+.div3{
+  width: auto;
+  height: 300px;
+  background-color:whitesmoke;
+}  
+
+.sec5{
+  display: flex;
+  width: auto;
+  align-self: center;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.sec5 hr{
+  display: inline;
+  background:gainsboro;
+  width: 400px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 10px;
+  height: 3px;
+}
+
+.pr5{
+  font-size: large;
+  font-weight: bolder;
+  color:chocolate;
+  letter-spacing: 10px;
+}
+
+.sec6{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pr6{
+  font-size: 30px;
+  color: rgb(22, 20, 20);
+  margin-bottom: 35px;
+}
+
+.btn3{
+  text-decoration: none;
+  background: orange;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: white;
+  transition: 0.2s ease-in-out; 
+}
+
+.btn3:hover{
+  background: rgb(218, 54, 54);
+}
+
+.pr6 .sp1{
+  color: deepskyblue;
+}
+
+/*Footer Homepage (index.html)*/
+
+.spc1{
+  height: 35vh;
+  color: white;
+  background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%), url(images/background2.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.bg{
+  width: 100%;
+  height: 35vh;
+  backdrop-filter: blur(5px);
+}
+
+.spc1 .sspc1{
+  display: flex;
+  letter-spacing: 0.7px;
+  line-height: 30px;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding-top: 95px;
+}
+
+/*Support page (support.html)*/
+
+.div12{
+  margin-top: 20px;
+  width: auto;
+  height: 500px;
+  background-color:whitesmoke;
+}
+
+.sec12{
+  display: flex;
+  width: auto;
+  padding: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pr2{
+  font-size: 30px;
+  color: rgb(22, 20, 20); 
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.btn12{
+  text-decoration: none;
+  background: orange;
+  padding: 20px 30px;
+  margin-left: 100px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: white;
+  transition: 0.2s ease-in-out; 
+}
+
+.btn12:hover{
+  background: rgb(238, 212, 156);
+}
+
+.prr1{
+  font-size: 80px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+/*Games page (games.html)*/
+
+.con{
+  display: flex;
+  background: white;
+  height: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+}
+
+.card{
+  height: 400px;
+  width: 400px;
+  margin: 100px;
+  box-shadow: 5px 5px 20px grey;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imeg{
+  width: 400px;
+  transition: 0.2s;
+}
+
+.desc{
+  height: 70px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgba(28, 28, 28, 0.5);
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.h{
+  margin: 10px;
+  font-size: 40x;
+}
+
+.pp{
+  font-size: 20px;
+  visibility: hidden;
+  margin-left: 15px;
+  opacity: 0;
+  transition: 0.6s ease-in;
+  transition: 0.3s ease-out;
+}
+
+.pp1{
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s ease-in;
+  transition: 0.2s ease-out;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.card:hover .desc{
+  height: 150px;
+  background: black;
+
+}
+
+.card:hover .pp{
+  visibility: visible;  
+  opacity: 1;
+}
+
+.card:hover .pp1{
+  visibility: visible;
+  opacity: 1;
+}
+
+.card:hover .imeg{
+  transform: scale(1.1);
+}
+
+/*Group Page (group.html)*/
+
+.con2{
+  display: flex;
+  height: 20px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.con2 span{
+  color:coral;
+}
+
+.con2 p{
+  font-size: 30px;
+}
+
+.hh{
+  margin-top: 60px;
+  color:black;
+
+}
+
+.con3{
+  display: flex;
+  height: 20px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.con3 p{
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.desc2{
+  height: 70px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgba(28, 28, 28, 0.5);
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.card:hover .desc2{
+  height: 150px;
+  background: black;
+}
